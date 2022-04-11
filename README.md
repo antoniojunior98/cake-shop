@@ -26,7 +26,7 @@ Cake shop é uma aplicação web para exibir seus bolos, funcionalidades:
 - Deletar Cliente. 
 
 ## Iniciando o banco de dados mysql
-- 'php artisan migrate'
+- php artisan migrate
 
 ## Iniciando o backend da aplicação
 No laravel iremos iniciar o servidor próprio do artisan e queue.
