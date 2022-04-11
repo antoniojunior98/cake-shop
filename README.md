@@ -30,6 +30,8 @@ Cake shop é uma aplicação web para exibir seus bolos, funcionalidades:
 
 ## Iniciando o backend da aplicação
 No laravel iremos iniciar o servidor próprio do artisan e queue.
+- php artisan key:generate
+- php artisan jwt:secret
 - php artisan serve
 - php artisan queue:work
 
