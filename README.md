@@ -33,7 +33,10 @@ No laravel iremos iniciar o servidor próprio do artisan e queue.
 - php artisan serve
 - php artisan queue:work
 
-## Rodando command para o sistema envia o produto diariamente
+## Envio de E-mail
+- Faça a instalação do maildev ou similar.
+
+## Rodando command para o sistema enviar o produto diariamente
 Esse comando já está configurado no kernel para rodar diariamente '$schedule->command('product:send-daily')->daily()'.
 - product:send-daily
 
@@ -41,7 +44,6 @@ Esse comando já está configurado no kernel para rodar diariamente '$schedule->
 O arquivo json 'cake_shop.postman_collection.json' contém todos os endpoint com os parametros, 
 Você pode abrir seu postman ou outro software similar e importar o arquivo com todas as requisições
 para seu software.
-
 - Adicionar Usuário: post 'http://127.0.0.1:8000/api/user/add'
 - Login: post 'http://127.0.0.1:8000/api/login'
 - Logout: get 'http://127.0.0.1:8000/api/logout'
