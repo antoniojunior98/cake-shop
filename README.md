@@ -26,7 +26,7 @@ Cake shop é uma aplicação web para exibir seus bolos, funcionalidades:
 - Deletar Cliente. 
 
 ## Iniciando o banco de dados mysql
-Existe duas formas para iniciarmos o nosso banco de dados, a primeira é importa o banco de dados que está no projeto na pasta data_base e a segunda é rodar as migrations no laravel com o comando 'php artisan migrate'
+- 'php artisan migrate'
 
 ## Iniciando o backend da aplicação
 No laravel iremos iniciar o servidor próprio do artisan e queue.
